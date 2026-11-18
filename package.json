@@ -1,5 +1,5 @@
 {
-  "name": "react-slot-datatable",
+  "name": "React-datatable",
   "version": "0.1.0",
   "description": "Tiny, dependency-free React DataTable: sortable columns, filters, per-cell overrides, row actions and composable Header/Row/Cell/Footer components.",
   "repository": { "type": "git", "url": "git+https://github.com/namandhuri01/React-datatable.git" },

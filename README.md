@@ -1,16 +1,16 @@
-# react-slot-datatable
+# React-datatable
 
 A tiny, dependency-free React DataTable. Pass `columns` + `data`, override any cell, add a row-actions column. The React take on the Vue "slot" DataTable pattern.
 
 ## Install
 
 ```bash
-npm install react-slot-datatable
+npm install React-datatable
 ```
 
 ```tsx
-import { DataTable } from 'react-slot-datatable'
-import 'react-slot-datatable/styles.css' // optional default theme
+import { DataTable } from 'React-datatable'
+import 'React-datatable/styles.css' // optional default theme
 ```
 
 Peer deps: `react >= 17`, `react-dom >= 17`.
@@ -19,7 +19,7 @@ Peer deps: `react >= 17`, `react-dom >= 17`.
 
 ```tsx
 import { useState } from 'react'
-import { DataTable, type Column } from 'react-slot-datatable'
+import { DataTable, type Column } from 'React-datatable'
 
 type User = {
   id: number
@@ -154,7 +154,7 @@ const [values, setValues] = useState<Record<string, any>>({})
 | `DataTableFooter`   | the area below the table                  |
 
 ```tsx
-import { DataTableHeader, DataTableRow, DataTableFooter } from 'react-slot-datatable'
+import { DataTableHeader, DataTableRow, DataTableFooter } from 'React-datatable'
 
 <table className="rsd-table">
   <DataTableHeader columns={columns} sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
@@ -208,7 +208,7 @@ npm login
 npm publish --access public   # runs typecheck + build first (prepublishOnly)
 ```
 
-Change the `name` in `package.json` if `react-slot-datatable` is taken.
+Change the `name` in `package.json` if `React-datatable` is taken.
 
 ## License
 
