@@ -1,7 +1,10 @@
 {
   "name": "react-slot-datatable",
   "version": "0.1.0",
-  "description": "A tiny, dependency-free React DataTable: pass columns + data, override any cell, add row actions.",
+  "description": "Tiny, dependency-free React DataTable: sortable columns, filters, per-cell overrides, row actions and composable Header/Row/Cell/Footer components.",
+  "repository": { "type": "git", "url": "git+https://github.com/namandhuri01/React-datatable.git" },
+  "bugs": { "url": "https://github.com/namandhuri01/React-datatable.git/issues" },
+  "homepage": "https://github.com/namandhuri01/React-datatable.git#readme",
   "license": "MIT",
   "type": "module",
   "sideEffects": [
